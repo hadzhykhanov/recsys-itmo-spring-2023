@@ -5,7 +5,7 @@ services:
     build: .
     entrypoint: python botify/server.py
     ports:
-      - '5000:5000'
+      - '3331:3331'
     depends_on:
       - redis
   redis:

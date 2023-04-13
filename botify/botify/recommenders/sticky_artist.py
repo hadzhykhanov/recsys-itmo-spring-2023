@@ -26,4 +26,3 @@ class StickyArtist(Recommender):
 
         index = random.randint(0, len(artist_tracks) - 1)
         return artist_tracks[index]
-
